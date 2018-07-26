@@ -1,0 +1,22 @@
+{
+  "name": "zant-cli",
+  "version": "1.0.0",
+  "description": "Zant CLI",
+  "main": "index.js",
+  "bin": {
+    "zant": "./bin/zant.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zilean/zant-cli.git"
+  },
+  "author": "weich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zilean/zant-cli/issues"
+  },
+  "homepage": "https://github.com/Zilean/zant-cli#readme"
+}
