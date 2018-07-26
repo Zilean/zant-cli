@@ -4,7 +4,8 @@
   "description": "Zant CLI",
   "main": "index.js",
   "bin": {
-    "zant": "./bin/zant.js"
+    "zant": "./bin/zant.js",
+    "zant-init": "./bin/zant-init.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +19,19 @@
   "bugs": {
     "url": "https://github.com/Zilean/zant-cli/issues"
   },
-  "homepage": "https://github.com/Zilean/zant-cli#readme"
+  "homepage": "https://github.com/Zilean/zant-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^6.0.0",
+    "ora": "^3.0.0",
+    "request": "^2.87.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.5.0",
+    "user-home": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
 }
